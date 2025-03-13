@@ -13,7 +13,25 @@ body{
     width: 100vh;
     background-color:#d0d4D5;  
 }
+.nav{
+    height: 110px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav img{
-    height:50px;
+    height:80px;
     width:auto;
+}
+.nav-1 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
