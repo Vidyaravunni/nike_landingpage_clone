@@ -1,4 +1,4 @@
-*{
+9*{
     margin:0;
     padding:0;
     box-sizing: border-box;
@@ -6,16 +6,47 @@
 
 html,body{
     font-family:"Inter Tight", sans-serif ;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .main{
     height:100vh;
-    width:100vh;
+    width:100%;
     background-color: aliceblue;
 }
 
+.nav{
+    height: 110px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.nav-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav img{
-    height: 50px;
+    height: 80px;
     weight: auto;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav-1 ul{
+    display:flex;
+    align-center:center;
+    justify-content:center;
+}
+
+.nav-1 ul li{
+    margin-right: 20px;
+    font-size:19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
 }
