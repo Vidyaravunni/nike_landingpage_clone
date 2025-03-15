@@ -20,28 +20,42 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
+    
 }
 .nav-1{
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
 }
 .nav img{
     height:80px;
     width:auto;
-    margin-right: 40px;
+    margin-right: 60px;
     cursor: pointer;
 }
 .nav-1 ul{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
+
+.no-bullets {
+    list-style-type: none;
+  }
 
 .nav-1 ul li{
     margin-right: 70px;
     font-size: 19px;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
+}
+
+.nav-2 i{
+    margin-right: 40px;
+    font-size: 21px;
+    font-weight: 500;
     cursor: pointer;
 }
