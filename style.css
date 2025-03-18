@@ -94,3 +94,60 @@ div[content="content"] {
   width: 80%;
   margin-bottom: 30px;
 }
+
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 12px 40px;
+  font-weight: 600;
+  border: none;
+  border-radius: 50px;
+  border-top-left-radius: 0;
+}
+
+.content-right {
+  height: 100%;
+  width: 60%;
+  padding: 110px 100px;
+}
+.product {
+  height: 370px;
+  width: 250px;
+  background-color: rgb(210, 210, 210);
+  position: relative;
+  box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+}
+
+.product img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  bottom: 20%;
+}
+
+.product h4 {
+  font-size: 18px;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 28%;
+}
+.category {
+  position: absolute;
+  bottom: 20%;
+  font-weght: 500;
+}
+
+.color {
+  position: absolute;
+  bottom: 15%;
+  font-weight: 500;
+}
+
+.price {
+  position: absolute;
+  bottom: 5%;
+  font-weight: 600;
+  font-size: large;
+}
