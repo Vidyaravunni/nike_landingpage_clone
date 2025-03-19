@@ -104,6 +104,7 @@ div[content="content"] {
   border: none;
   border-radius: 50px;
   border-top-left-radius: 0;
+  cursor: pointer;
 }
 
 .content-right {
@@ -123,6 +124,7 @@ div[content="content"] {
   box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
   display: inline-block;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .product img {
