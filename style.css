@@ -110,13 +110,19 @@ div[content="content"] {
   height: 100%;
   width: 60%;
   padding: 110px 100px;
+  white-space: nowrap;
+  overflow-x: auto; /* Enables horizontal scrolling */
+  scrollbar-width: none; /* Hides scrollbar in Firefox */
 }
+
 .product {
   height: 370px;
   width: 250px;
   background-color: rgb(210, 210, 210);
   position: relative;
   box-shadow: 0 5px 10px rgba(17, 0, 17, 0.3);
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .product img {
@@ -143,6 +149,7 @@ div[content="content"] {
   position: absolute;
   bottom: 15%;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .price {
@@ -150,4 +157,5 @@ div[content="content"] {
   bottom: 5%;
   font-weight: 600;
   font-size: large;
+  text-transform: capitalize;
 }
